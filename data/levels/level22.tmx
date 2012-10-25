@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="8"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Forced Entry"/>
+  <property name="password" value="WZIN"/>
+  <property name="timeLimit" value="300"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XMQoAIAwDwL6g/3+uuAqupsgFMl86tquqw03l3PB615T7+Xw+n8/n8/l8Pv8nP/nn3ZL+u3cXpYyeqgAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8VXiW3EMAzzHnYH8AJZoEt1GS+QKTpaL0AMsCwp6Q4FzoDhxCebEvXlWnv/+H7Mec91z+v5pHUKuUVnqvMkHb6EXpfMuOXH/X4UZg9kT1gR5wA7UHbQe2bTMLL7N1wR38nuPT7rbGNZtgX3meczkN2T9UJ9F8jj73iX8r/iZjTNseIB8aNYYT4cPstijDMPaDfa7/LB+Z95zfLL4U/aYx7wTMS/y61T3MV6dMJX8Z/hR7x14Sf2n4upCH8JWbTZxST6A58Xra/gK5s5Jjkut87/gb/Poh+y2q7uUPvP4KM/qr2A7+D9Kv+z/fZ9lquOB95n/KwOOftcfnK+V+tf1OddzLOdKt6q9ldqj+LB1QJXDxlffQMp25SfmZdX+l/mw6g+u3pQ6X/OzigPO9mItSH7LlT+3za4+sf4qs9X+hfyy/wzvsph5Ycu9lUsMX8ZvvKdyqmofnCMjPY3/vj7pVrbUV/0j+vdWIMUvtLbxXSEr85xH3X4s7i6PhHxltW/+eTq/J31BFf/XL5EdUXVi0O876H+5znO1Dew6kGVGrzvu8bHY34KPd4xfgDagRg+ABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XMQoAIAwDwP5/6pPFVXA1RS6Q+dKxXVUdbirnhte7ptzP5/P5fD6fz+fz+T/5yT/vlvTfvbsANr13cwAQAAA=
+  </data>
+ </layer>
+</map>

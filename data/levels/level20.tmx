@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="15"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Tossed Sallad"/>
+  <property name="password" value="KGFP"/>
+  <property name="timeLimit" value="400"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82UUQ7EIAhEPYH3P25/DWFgBqgtidkUhTe44F5r7Z+sCevyu1on67/Nt7lv8b34Kl8xyzp/rW+6fsvPNHX6KNNqWcvxqTy1frRv96IaEB+dR/1+fnu5sjgUY/3RzKGzGQ8Zw0daGH6UO6sp6iHFr5gyS+r8qest7WqNDC/jV3SrfHU/y6vws/5geN4cVfmV/3iCb/cZ8+Ju86v9x+RlWVEcy6/cQaaxw49i0R0rfOWtQeem6q++Qzf4iq4On7nft/gRI4pX30pGm6rT0/zlegB3Z+qMABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGLxAEw0PNmCKhqkBYoE4kwT7paGYWvaDQMUA2O9Chh584T+XACYE1kFpLTLcRSo4QWPzzbBgbMCDTu5BB4F45NppZGcNAXlY/GfTyH5sgN7hjgsMlDtwlQHY0usUWjoECVCzXCUXlNPY/FU0Np8S+6vIME+aRDW47CfGbmci1BAC2Ownx9/EAGxhg24/rezGBZDtJ8VudL8QE+/47Kenv5Htwta2JdcvxIBJDMT7dR0Sm9R8Rar99Kp3yPU/OiA3jujhf3xuI9f/B8h2Dfn2IwNK8kQzCWqTyDCfFY/cGixixPaxaA0A1+PhZQAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82UQQ7FIAhEvf/KI3drCAMzQG1JzE9ReIMf3Gut/ZM1YV1+V+tk/bf5Nvctvhdf5StmWeev9U3Xb/mZpk4fZVotazk+lafWj/btXlQD4qPzqN/Pby9XFodirD+aOXQ24yFj+EgLw49yZzVFPaT4FVNmSZ0/db2lXa2R4WX8im6Vr+5neRV+1h8Mz5ujKr/yH0/w7T5jXtxtfrX/mLwsK4pj+ZU7yDR2+FEsumOFr7w16NxU/dV36AZf0dXhM/f7Fj9iRPHqW8loU3V6mr9cDwRSfJEAEAAA
+  </data>
+ </layer>
+</map>

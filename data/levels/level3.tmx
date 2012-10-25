@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="4"/>
+  <property name="hint" value="Suction-boots for force floors. Fire boots for fire. Flippers for water. Skates for ice."/>
+  <property name="name" value="Lesson 3"/>
+  <property name="password" value="EXBQ"/>
+  <property name="timeLimit" value="100"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UWwoAIAgEPUH3P26/Ej031yB2QIJIBzMyEwKjuHjl92uGr43ePtMfcebW37sH1ix2HaxZzFzIHupf9cWaBVKL7V/V/d3PyNmp9fL9Zef6GqO/DjkXAeuvOfFn9SqEEIJDBdmAFpoAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2RwQmAMAxFu0frXQfQBRzIBTx6cQFvLqBLeHIuU7AQYisUmoiQB++i4qtfYxTlv/Qf9yvh3gZ2L0r0UzjBfk3k7NPNQ38GLelz/IvY5rHvx5TcIvQncL2ltEiuvu+OiWd8dxHoW3T9AE/Ut8z93Tz3H1Cfe/8cSvabiA6Zus+Jf79FZ5DGERVFURQlhwv8zVh3ABAAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.68">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UWwoAIAgEvf9XR+5XoufmGsQOSBDpYEZmQmAUF6/8fs3wtdHbZ/ojztz6e/fAmsWugzWLmQvZQ/2rvlizQGqx/au6v/sZOTu1Xr6/7FxfY/TXIeciYP01J/6sXoUQQnCo1RMkkgAQAAA=
+  </data>
+ </layer>
+</map>

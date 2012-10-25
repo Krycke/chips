@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="48"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Oorto Geld"/>
+  <property name="password" value="UNIZ"/>
+  <property name="timeLimit" value="550"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9WTXQoAIQiEPUH3P+6+R+n8FGtCLDSrn2IzImI0OUF+qzwktwM/C0dHcqs+bvBfmz/b9Xyv1mTC5e/6ULyK8Jmaq97UmPe10pEdnea/PD/jN/T9u3Nm/SAzOrlK74rXVjUYDsJHclW+Oidau/on05VcJ5w9s/5z5q94Vbjv7xZ/1nfaLT7jB+Seqcn6juGzwXoY4Ss1qx4VDdVZ/5/gd55/t89My/QqrxP/j/MBnoszLAAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9WXYQrDMAiFw37sEqUX2DXWC+zGO1pXWEAsvpqndusHIRBJ46vWxtb+h2lwPtrn2StZjPllzM1ht54pmYz1KpaG38PZsPrvpC2ivyJOSL/OtQwy4q/9PdP/KJtPukawfj7i7uxAuZtBVP/NGBYyN0a16bxC5yCbJKJ/5PzMWtHzTJ7x/I75M97CVpGTHet8bcuCjT/KsyvEH+31fH+W/m39SH91/cmCzfPM+l+J5ZP33+ul6v6J/K+4f7Iarnj/zvxGK/Qz92/UK7E9mKf/6kT6SLZ3/TUrGzye5QAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9WTSw7AIAhEuf/KI3dvFOajKZKYJk7hQXBGRIwmJ8hvlYfkduBn4ehIbtXHDf5r82e7nu/Vmky4/F0filcRPlNz1Zsa875WOrKj0/yX52f8hr5/d86sH2RGJ1fpXfHaqgbDQfhIrspX50RrV/9kupLrhLNn1n/O/BWvCvf93eLP+k67xWf8gNwzNVnfMXw2WA8jfKVm1aOioTrr/xP8zvPv9plpmV7ldeL/cT6Vz9SaABAAAA==
+  </data>
+ </layer>
+</map>

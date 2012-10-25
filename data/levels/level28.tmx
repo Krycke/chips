@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="22"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Ping Pong"/>
+  <property name="password" value="UJDO"/>
+  <property name="timeLimit" value="300"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OwQkAMAzDQE+Q/cftEH4IUwnyPOJLcvBR+b/7r//bt9H79du+jd6v3/Zt9H79tm+j9+u3fZv/+Xur5ufDABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGHhwAIjN6IwnItm/Coh3APFRKE0PLIPFfmkgnkJEeIHUyAKxMxTLkqBPGo/99AKj9g9O+9HTHxMaRgawtERsmkXWM1j9r0EihgFS9Q1W++kFKC3/GBiGZ/qbSyKGAVL1DVb76QVG09/gLH8G2n56gdH0NzjLn4G2n15gsKY/emJk+1cDsSad8Twiw4zWAABM/g7xABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OsQkAQAzDQO9fZeQfwoUwL0HKI74kBx+V/7v/+r99G71fv+3b6P36bd9G79dv+zZ6v37bt/mfvwdhXn2vABAAAA==
+  </data>
+ </layer>
+</map>

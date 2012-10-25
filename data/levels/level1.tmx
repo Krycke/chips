@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="11"/>
+  <property name="hint" value="Collect chips to get past the chip socket. Use keys to open doors."/>
+  <property name="name" value="Lesson 1"/>
+  <property name="password" value="BDHP"/>
+  <property name="timeLimit" value="100"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UQQoAIAgEfUH/f273UJFoFWIGIpHaLaXMAAAgYzkjyyv8o/Nk65T+Wf6lb1T3c1b04VZH5R/pqvpQrWtX/Sfu37nP06m8gYl/KIqV4N/bbwD4lw1ZX9IjABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBSMglEwCggDaSS2Mw5xWoMsKC2LxqclSILSATjkY9HUURsgh681lD4GpT1wqKMVgNlxYADsBAFrNDl6+j8WiY1sF650QStQjkaPNCCNRg8UCB1g+0fBKBgFo4BcAAAzFuFyABAAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.68">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UQQoAIAgE/f+pJ3cPFYlWIWYgEqndUsoMAAAyljOyvMI/Ok+2Tumf5V/6RnU/Z0UfbnVU/pGuqg/VunbVf+L+nfs8ncobmPiHolgJ/r39BoB/2d0lxxsAEAAA
+  </data>
+ </layer>
+</map>

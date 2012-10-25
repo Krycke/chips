@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="4"/>
+  <property name="hint" value="Blue walls may be fake. Some invisible walls never appear. There can be extra chips. "/>
+  <property name="name" value="Lesson 6"/>
+  <property name="password" value="WNLD"/>
+  <property name="timeLimit" value="100"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TIQ4AMAgDQF7A/587S5aJBQHmLmmQNSUCgB/5CEypm9vaX153o9/vAUDfAW3/bXEAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMNrCDCphS+0e6fhA+isbGBpDVUDP8pXGI4+LPh9LSdLD/GJRGDhN62A+z7wCae+hlPz3DH1+akiVBLS2AM43NHwWjYBSMglEwCkYB7QAAxLuLtwAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3SMQoAMAgEMP8/9cldHRw6qZQExPEULgKAF6eYjsxJ8vfInevqX3VD3hP5U78DwA8u+RDECgAQAAA=
+  </data>
+ </layer>
+</map>

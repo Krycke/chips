@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="1"/>
+  <property name="hint" value="Monsters are stopped by dirt and gravel. "/>
+  <property name="name" value="Lesson 8"/>
+  <property name="password" value="NHAG"/>
+  <property name="timeLimit" value="100"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VwQkAMAgEQStI/+WmhkDCGZwBn7L4sgpy1oP5sX+Dvr7++U5Sh/v19af30/8/1Qfm2jqQmE0AEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMNFhDBUwN+yeQgYej/cSAUfupZ/+xAbT/AAN+/1sBsTQR9ssCsTOZbhjo8B+1f3DZP9Dl30DZP1D13ygYBaNgFIw0AABqFj9AABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3VsQkAMAhFQfevMnJmCCR8g3dgKQ8rqyBnPZgf+zfo6+uf7yR1uF9ff3o//f9TfWCuDTK7ao0AEAAA
+  </data>
+ </layer>
+</map>

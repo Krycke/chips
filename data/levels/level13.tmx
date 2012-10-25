@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="0"/>
+  <property name="hint" value="What was the name of this level?"/>
+  <property name="name" value="Southpole"/>
+  <property name="password" value="OCKS"/>
+  <property name="timeLimit" value="-1"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3NsQ0AIAwDQU+Q/cdlAAoqMMW95CpSbpJMea34fD6fz+fvt6b/Ij6ff/d/0z/F5//gN7cA+biXVwAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1V2w2DMAz0IF2ABbpAV2OBDNAMUJboV+eq+IgwV58Tp0VQCSRLKLJ9d34kIvt/953sxP8//DHonzbWj/EWP8Yhih/VXiz/CH/qxN9Sf1LnifhF9WM+7LMYGNoX69Sjn/VaiE4rjzf7Hr7VZytXbR4y+GEOT3+Jy8LxSr4b+AvEROuv61rmS+SzxwK5Wmaztf6I59XH4puUz0PsHWD4TI83p5rHFXx69o/tU5Y1rjWfE/FDHgx/qHC3+FgzYXFr7b/mr+OteyHLMueMWwS/Zjom8t59ix99f3Q9IvvnzQzTXLPo/uHd7vGw7ijrzuqp/yjLbmOuubYXWebvBTxruVvwS/8y+df2JL6MC8OfYwdZ3wPF8Mx7n7zet+rf0k78Y+Dv+b0BfHu7JgAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3NsQ0AIAwDQe9fZWQGoKACU9xLriLlJsmU14rP5/P5fP5+a/ov4vP5d/83/VN8/g9+cwtbd5AmABAAAA==
+  </data>
+ </layer>
+</map>

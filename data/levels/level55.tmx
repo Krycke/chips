@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="30"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Potpourri"/>
+  <property name="password" value="SJES"/>
+  <property name="timeLimit" value="100"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UzQoAIQiE2xfw/R93L3tYgsbxLy8OSJA0H1kqay1pjqi8vpl8Zq+Kf/LV/KN8+a0nrxt8xGL43v+ZxbfmrHz0NtX1RzlrfdH5/Z7MO1b1385AOXZOMHnZ9tj+R3WL8DVVzr/nC5av9T/qU82b4WvKmE+MZ4Tn5XsUnd0Wj2gdNH6Xhj/84Q9/+L38zngBP+ZHWQAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2Vyw3CMAyGrU7Qe8SdBXriyALsgVgAcaQDMEDJACAW4MJoJJIjLNetk1QCDv4ky3Wb5vcjVQH+gyaYC3b4oX6iJo89uT4WvutQ/y7c1/JYBduS2BdqU625Z7n9eDKfS6MvEfOQer0p1Nbw7JrPieewZl7DCZY4BxuCXVCbxpETrl9S89Tsd6jl0HsWU6Q5PEiOOfpS/YPiI52yvwavn8Y31JqyyAvG57cX9p3Tn5p/gtbtYdyH2u+eIu2RequdgyX6XYalOVzxHR4vQTs//Ll0nlv0Hsp7Efd3MF9/Li18/ic1lOpxanUNwzAMw/geb1h1FJMAEAAA
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3TwQkAQAgDwWD/RV8Jgh74makgj00CSV0PgCHtcm3b4K+GfQEA6DygEK0BABAAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VwQrAMAhDu/+/+MljsMMozkSteDEgdC3kdS5rZa0lzRVV1jfL//owc6f5so1lGyP/iv5be6zgIxbDZ3Kk7fUU37vm5Vvfprr/1hqTT8TXMr8/V70/oxP5Z3OgnQee/FtzET5SVf8fz+stls/8/38eyJvhI0XuOZaveUV4UX5EnrM765HtA+J3afjDH/7wh9/L76wbrZrhRgAQAAA=
+  </data>
+ </layer>
+</map>

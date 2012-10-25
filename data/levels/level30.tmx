@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="36"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Mishmesh"/>
+  <property name="password" value="BQZP"/>
+  <property name="timeLimit" value="600"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2SMQoAIRDEfMH+/7kWNiJWm8EpnMAx1UUD1lhUc8m/u8OF4u7p5w4X6WercrhIP1uVwwW5O+0m/bfzX1LHRzx0f31/SoeL9LNVOVykn63K4SL9bKljAvFVkHkAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC61WQQ7DMAjjH9Ves0/3uEv+tU1bpCgCY0MiTTQMDDSG1Mzstt+qyI7vlNfnN/77senvQD/3DIaCbUDv2bG+u74ac/dHmFksNScPv1q3Wmdkp/hWzwbhdd9hxnOF/17My/x6EP/Zd+/xX+Ucy/9Ir9hWexLlWI2t8j/CUWKe6tFVqueX8T+6FyJ7T5f1UMR/9Qy/60FiqDI7o7meyzOLhfjL5uctZl4webLytcTucJvhzkn+IT2qBc3f6vzo3s8IQ6kDSYa/HQy0z/Serlo/y/vVT73Lonmq9gXz/cHOX3UedPjfuae8/5GNysXKHDjde6q/F/sU/5ncTtShfiPv/B+mYbD8Z2QX4w3PEKHsABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2SMQoAIRDE/H+1T7awEbHaDE7hBI6pLhqwxqKaS/7dHS4Ud08/d7hIP1uVw0X62aocLsjdaTfpv53/kjo+4qH76/tTOlykn63K4SL9bFUOF+lnSx0TGcMzAAAQAAA=
+  </data>
+ </layer>
+</map>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="12"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Scoundrel"/>
+  <property name="password" value="ZYVI"/>
+  <property name="timeLimit" value="294"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WUQoAEBAE0DnB3v+4fiUxrIwySvnAW5MiAIS4q1rtZ2rPrgPu5mDfvn379u2/8v7at/+rv/NHPvF3Zc9/MqNoxqw/q3uUEZNhtu3kqPB7d4bdfzT/1vnVPrv3iq/sBfxOOHUAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9VXMU4DQQz0G2gXSI9okyYlFJTwABo+QJmGD+Q1aUNHw7/ISbeSmZvx+i4bCUaycrtr79her+9i9r/x1WGP6w57nMOZ4T8Gc2ytBGuK/zvgH9beYD/1jHZMR/EfR/HPfoy/Ftgwqf6o/Beno2LCeRYj5hLHjJ/Fy/zH+Fu2qKP4MQb0HedZfjDOufUXnRubt8CG7RGdf+vM/LjYNLdF6JpN89A6/6xk7Pagp/g9qv/+PrxDLI/j7wuxM9BFRPEbjKOaRq5ML1D8zP+6L553C9WHWhOZ+5/tX96PO+DM3hkVP+YfEeXh9SQfZB3zsCX82fuL578Df7P2jF9BvcNaULVUOZF/SU+bo+slU/91f/Ytwe75k1jzezDOzPn36P+Z+NH/qNcwRP3Pr8395sz0vx64EmN8932C3s6WY3WGbU+UUdb2u14vmW+PNciA1QX4n2Fc8+9jz8Q/1PCt6Vo+LHUQoPgH7puAn6HYNL6KezFW/4s2J3mYyf/X8APtfKPBABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WwQrAMAhD/f+Tn7xr6baaGTspJCD0oH0aPOhm5s3RpZHP9M7Wmf3rg/jiiy/+6fxsrfh3fkbs7pzOZyW++NkbueJ2Reev9Min99sMc03U98oj1ENGGR8j/peeUP6T38ifUX7F/Oje7+CzYvidcQGD61JzABAAAA==
+  </data>
+ </layer>
+</map>

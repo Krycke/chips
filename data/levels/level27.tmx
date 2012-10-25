@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="6"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Go With the Flow"/>
+  <property name="password" value="IGGZ"/>
+  <property name="timeLimit" value="200"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2SQQrAMAgEfYH/f25PhSIqpjhJoQoLYiST1aiI6Gg0+qTueOayeEcH38YJ/2pyr5fgV+ZBzSfik/+h6onyLk6esWxPF796Xwcz42dB8qn+t/9v9xyinaycUXzP9wm+944/8Hfu3/MY1QiumFp2Ts/e+ib5Vd4u/5X9UP6jIH2PeF2kXNxvABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UywmAMAxAxTXUuw6gCziOiAu4jFc38OZoWmgglNQPJo2HPAgtGPoSA8kywzCMa3LtAjx/qYNiOaM6o2d8867fndEFNCjeMjP4S3R/Mu/VnwuDO/Q/Yb1P+eyvg3BMCf1XSPg7IjaUg+/c/lhNjpr4Bv5B2S9J6C+U/Q743+AfE/sB6f4bJT/MGO8Djf5j+wjqk+y/DfwFkafVv/PCbpQAz5/ax1JeIx0HligP6QAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2SQQrAMAgE/f/JJ/dUKKJiipMUqrAgRjJZjYqIjkajT+qOZy6Ld3TwbZzwryb3egl+ZR7UfCI++R+qnijv4uQZy/Z08av3dTAzfhYkn+p/+/92zyHaycoZxfd8n+B77/gDf+f+PY9RjeCKqWXn9Oytb5Jf5e3yX9kP5T8K0veI1wWgGuINABAAAA==
+  </data>
+ </layer>
+</map>

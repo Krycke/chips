@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="0"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Monster Lab"/>
+  <property name="password" value="OVPZ"/>
+  <property name="timeLimit" value="300"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VQQ7AIAgEeYH/f26vxlTZAdSkaRMODV0GEGwzs3bZ6KNo1G8y/JV2N9/TEv6OM/t6/zP8Xh+JQfnjuVXyyYxU8Xs/mUvKV3gn+UpulfxIb36+xq/+N5J4KkO5Z974NOcd/Ioez+aF9FjJmdSkxtvJX9U86jN8Ja/MHUrqJ/s9e/fiz5jUzPR81d2K+Gn93nxF+Jn99+Kr/pUuqj3Jv13/1/k37QF9D4LIABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC9VXyw3CMAzNhTu5dwDEHWUAWIA5GAHmYB5Gg0ixZLn+vKQRiCdFThs7L/5FbUq/x6FzIDaoDukd29ySpcnc5E2sJ/bM+S1wuxH/PSD8s0Bxqf5QbP7N/544Sd1Z+ScZ+SjXovqXuDh7VvkA+bV9vH1pvjQ56j/C6eVkSWvM7BNrrxn+o3eZ15PEX4QNyWfA78U2Jdx/bU3zR4uTZY+ckfgzW+/JP4+txe/lSPPfg8Uzen6r/63zyjqJ8o9Aq1lNp2IHnHNr/3r8WVnr3Rvp2YpXcCYUPMejPTvrTkR7dgZkbdMz2rN8vuUOlvqE0Z7txYz803stLta3xkkMxE5i75wl+tbS+BGg/nu2Gn80In4CUsdb+BOgF9Ux59f+oQp7zoK/sHH/jGta/2+N5L/Hf8LZ0Bup/xH+b+MNCyItVgAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXEgnVQPAqwgyMD7YBRMApGAQoYrHkyd4TbTynYPtAOGCGAdaAdMAqGDRjNs6NgOABK0rEbFBMLqimwaxQQBgDv9SOXABAAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VQQ7AIAgE+f/JJ/dqTJUdQE2aNuHQ0GUAwTYza5eNPopG/SbDX2l38z0t4e84s6/3P8Pv9ZEYlD+eWyWfzEgVv/eTuaR8hXeSr+RWyY/05udr/Op/I4mnMpR75o1Pc97Br+jxbF5Ij5WcSU1qvJ38Vc2jPsNX8srcoaR+st+zdy/+jEnNTM9X3a2In9bvzVeEn9l/L77qX+mi2pP82/V/nX/THrGNDEIAEAAA
+  </data>
+ </layer>
+</map>

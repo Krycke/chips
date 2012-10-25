@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="0"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Bounce City"/>
+  <property name="password" value="NILLY"/>
+  <property name="timeLimit" value="300"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8WUXQrAIAyDPYH3P+6eBkOSpo2rFoSxuXzpj84xxry83vg+/xWRpuKjf5HvdT/TRPrKn3qH9B0+8qJyZL2MnhmffWf8VeM0X82B8rLLZ9qqFspn5cxG2swv46t/Hf/Ko+Jnotp/tC9bb8Z35j+jXY3d86e03bns6L+6G9C+jvlj/L/nL+P1ZP0R+8b8o/7u5u/2BTGZV+XNiZWP6oB6sMuvzKe6M5x7pnJmWD2c/Kv5dvGjnKPedPKjPLN1Uf3M8JV/N/9of3V+HZ6Tr+PTWVXtW9GVf2U9l/SudAAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGLxAj0TxoQ7o5a8qOtkz0CAXh/hg9r8eDhqXGLEAOSxo5f8kILYG4gA8ajxoZDchAPM/PeMeV/obiQBf+ptCBzuHIiAmXMjx40CUf9SKi1w0mlogF4+Z9KxHqOkvbGbhczOxdtMr/SDbQ04ZUU4th1AZEApncsOXULuAGuFBrbI6iYA8LAxoVTcMJUDr/HaAxuYPdkCrNBbLAMlz2NrDzjSyk1QAAFKZ6XkAEAAA
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8WU2wrAIAxD/f8nP3lPgyFJ08ZVC8LYXE560TnGmJfXG9/nvyLSVHz0L/K97meaSF/5U++QvsNHXlSOrJfRM+Oz74y/apzmqzlQXnb5TFvVQvmsnNlIm/llfPWv4195VPxMVPuP9mXrzfjO/Ge0q7F7/pS2O5cd/Vd3A9rXMX+M//f8ZbyerD9i35h/1N/d/N2+ICbzqrw5sfJRHVAPdvmV+VR3hnPPVM4Mq4eTfzXfLn6Uc9SbTn6UZ7Yuqp8ZvvLv5h/tr86vw3PydXw6q6p9K7ryr6wHSd4sugAQAAA=
+  </data>
+ </layer>
+</map>

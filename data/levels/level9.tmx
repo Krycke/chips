@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="9"/>
+  <property name="name" value="Nuts and Bolts"/>
+  <property name="password" value="KCRE"/>
+  <property name="timeLimit" value="400"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2TSQ7AMAgDeUH+/9xeK8RmQ5VWDVIOWWDsCJaIrJcsNJj6f+VH+btC/wubP+G/8w/sH0/4t+pY+wof7VePb2lj5qKqUXsS587y3uWzc57ttR9PNxpVvrXP3lXPK7xIPzM3FX63Ttd/Vjd6jwbr/57v6Zw6j3piwnfUb1kvduYf4VdyD/8ZfkWLvkcC0ZXxmUA1Z2+7/vUZU4fhe3eHv5fPrC/yJxfKvwAzjo3JABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82WMU5DMQyGvTD3AIEdsRcJMYIQIwgxgqqOXKAXgAPA/noA6AEYWXovEvEsLGPHdngp/NKvvvi95oud+LUA/0eboKM6c/BRe8Z1C9/SZpw/QZ/8Xxx8lDf/g4Z1nFT4ltO4htb631fu4ZxW7vjskP1MYo9jbBDuoWYGP3r+B/J9ei2Ne0jin3bgJyX+Bt/1XlfuWfuyS/Xel4s/5lvy8mfsU9My+yr7msXL+CH7soHvYd845qHC997U9b/NXmWfs3gZ38HP88/7RNITM41pvbgLediLTjxai6n1ThwRP9tFR4381MA/FGL7jfztRPwp9Rrkz+Grx+YOe/m1NVC+1OvcQNaH+mBzlnOwYnyrDijMn7KkcTT/Yn42pHcz8gHkNWj8RZCv/S5o+ScWb8l/y9ha/pSr1UDiL9m49PExsac3ef1/u/9R0frXzqDGt/47RfnaGnrm73XRJ/hxiX8AEAAA
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.6">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OIQEAAAgDsDegf1siXCAwW4IlAADdfAcAgJMFzEDKDwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2TSQ7AMAgD+f8pT+61Qmw2VGnVIOWQBcaOYInIeslCg6n/V36Uvyv0v7D5E/47/8D+8YR/q461r/DRfvX4ljZmLqoatSdx7izvXT4759le+/F0o1HlW/vsXfW8wov0M3NT4XfrdP1ndaP3aLD+7/mezqnzqCcmfEf9lvViZ/4RfiX38J/hV7ToeyQQXRmfCVRz9rbrX58xdRi+d3f4e/nM+iJ/cqH8CyGTiFoAEAAA
+  </data>
+ </layer>
+</map>

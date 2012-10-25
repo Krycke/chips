@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="170"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Chchchips"/>
+  <property name="password" value="YVYJ"/>
+  <property name="timeLimit" value="300"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WQQ4AIQgDeQH/f+7eCS6GFrmUpBcjTkNS1c3MF4UUox/xweIj/eLv8dFiZaCbO0YO0d7NDE/Nf4Mf16qeCb6H9df8zEPlg5H/Gw/ZnFjvYOXhbz/z/ss8TN49lYfs7Gl+ZHT53f/Tacav5n9b3XdLkiRJ4ugD+UbGzwAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VzQmAMAyFu4JncQERrw7gBE7lAg7kaCpYkBCTvFjpJR/kIG3fe/2zKdVlPqs7qzVUZmN01rssUL2L3ZxYxpKD+tMsf+eQ/JF98OZA5k/bvGv1zFHS37Je2jpqmpK/F68ON467j4gOkkXqi+SQ/EenP5KD8/ecncSMtYCuv9aHzqGGP5KhtD+aAb1/yL5K52lhtN7+SV/PonUu3rdF4qk1AP6lcmSNXsl2sZG2qaC/pe3LG5arId+L0j8IgiCoywGirepyABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OMQEAAAwCIHOtf7Bl8PKBBCQAANC7dQCAygOJC3dwABAAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WMQ5AIQhDuf/Ekf9O8GNokaUkXYz4GpKqbma+KKQY/YgPFh/pF3+PjxYrA93cMXKI9m5meGr+G/y4VvVM8D2sv+ZnHiofjPzfeMjmxHoHKw9/+5n3X+Zh8u6pPGRnT/Mjo8vv/p9OM341/9vqvluSJEkSRx/RWWoMABAAAA==
+  </data>
+ </layer>
+</map>

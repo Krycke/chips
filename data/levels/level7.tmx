@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="3"/>
+  <property name="hint" value="Teleports can be directional. The thief takes your tools. New walls can appear under you. "/>
+  <property name="name" value="Lesson 7"/>
+  <property name="password" value="FXQO"/>
+  <property name="timeLimit" value="150"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VQQoAIAgEe0H/f253wVJb6zIDnWwZNqjGAIAIs7iU/hcZm7ddMr0V/pucyp/p3+X3Ztlch9/O8ev9lXdHff92nU/7X/pV72/E33Hunl8xy/p//3sAAKBnAfVG+uYAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMFbAKiM1IwLSwn1ggQyU7NYFYGkrD/C/NQNjf1LIf2RwBEtTTwn5cYCeUNqWx/QeA+BgSPx9NLa3tJwToZX8FGk1v+2mpD5s5Gmhi6P7PhGIQ0IRiWtqPDmSB2BlJPTUBNvtroDS28oCW9u/Eo06aRvaPglEwCkbBKBh+AABPWB72ABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2VMQoAIAzE/P/kk90L1bZedUnAqR7hBHUMAIgwi0vpf5Gxedsl01vhv8mp/Jn+XX5vls11+O0cv95feXfU92/X+bT/pV/1/kb8Hefu+RWzrP/3vwcAAHoW81WoYAAQAAA=
+  </data>
+ </layer>
+</map>

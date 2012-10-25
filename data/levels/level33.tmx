@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="9"/>
+  <property name="hint" value=""/>
+  <property name="name" value="On the Rocks"/>
+  <property name="password" value="BQSN"/>
+  <property name="timeLimit" value="-1"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WQQrAMAgEfUH+/9zeSyBNXXcMZMGjTkY8ZETEgIvKLl/13oy/cl+Uf9W8DJ94y5vvTid/Ik7+jOX2V/N3+iv8s7tz+lf0Z3P5l38iX/0P+9tL8Tv4K1LNX813+JP8r/7UDXS5P9qfrAfj3dtCABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82WwQ3DMAhFvULPVe/dwAN0zuzS0VpLjWQh+P4Y7PRLHCJjPzCEpJTr9dxoTY+vvZz8mhQvm79cb7oR/jOxWGt3wWfizeTPnIn2W8+9Knn+8TPE7+8P8U8/VN8ZvuQxvfgGfh5+tP7R3prlZ+QlzZod2fzD2N+k9ZaHXxT/U7WM+Wz+qFba++R5ZyJ9hfLfwV9hK/nM3TD8kQ/qV3b+ongjfMTT+DJexiLzgsn/3/ov6z+M4Wt30uSdpVZ9GL7Vw7v4I5/d9Wf7nemTTL68q6bRtwnxrTV23mnxyDN7yf9eFNtMr8j4+j2Rb3gkPqmV/FFMV+kDPS8xgQAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAVDBRwZaAeMApoC/oF2wCgYtmC4lh2jeWYUjIJRQE8wXMvSUUBdMJpOiAOjdfjAAQBl6iAmABAAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2WQQrAMAgE/f8pT+69BNLUdcdAFjzqZMRDRkQMuKjs8lXvzfgr90X5V83L8Im3vPnudPIn4uTPWG5/NX+nv8I/uzunf0V/Npd/+Sfy1f+wv70Uv4O/ItX81XyHP8n/6k/dQJf7o/3JegBqCEQDABAAAA==
+  </data>
+ </layer>
+</map>

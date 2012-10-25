@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="0"/>
+  <property name="hint" value="Press Ctrl+R (or choose Restart from the Level menu) to restart any level."/>
+  <property name="name" value="Cellblocked"/>
+  <property name="password" value="SKKK"/>
+  <property name="timeLimit" value="-1"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC91UQQrAMAjzBf3/c3ctsho7TasLCAs4JYvZEJFxuWac5G/72UD7b+hfeWLxLx6vOEsf4h7/0TwEq7+K/gx/I/dwSq/mnv0amf1V9Hvyvsu75j+ad42/5h+9vzOfpQ9xRv7Z99fF/675R4j+L7r4j3jmPbD0IZ6xH8Hqr6Lf42e09DxRzwx9iHv2Z8P7/U/VA960GHsAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82SMQ7AMAgD/be+ulunvqtTpApRCCHUWGJwIEEnB+DrfNWfXttfXd5+Br8m2ffmPVnvsfln89J8JG+t14Efiq9WJ/5IvqN/B+dX9//BjwIvZc2z+SP3R10f517+steBH4r3tPN/sPln8+rw/yr2Q/GeoveteTa/lXc2f+t+F34seKnMPJt/Z77ef5G9DvyY8FlZ77P5M/lGa7x/oIcepAgsNgAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC91UQQ7AIAjj/yefvOtCJgWhKmvCoQmD1NINERmH642d/Gs/G2j/Cf0zTyy+4vGMs/Qh7vEfzUOw+m/RX+Fv5h526dXcs1+jsv8W/Z68R3nX/GfzrvHX/KPvI/NZ+hBn5J99f13875p/hOz/oov/iFfeA0sf4hX7Eaz+W/Sv+Bctaz5LH+Ke/dWYvf+pegCEGDpRABAAAA==
+  </data>
+ </layer>
+</map>

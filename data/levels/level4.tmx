@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="9"/>
+  <property name="hint" value="The blue button controls the tanks. The green button toggles walls. Sometimes things are hidden under blocks. "/>
+  <property name="name" value="Lesson 4"/>
+  <property name="password" value="YMCJ"/>
+  <property name="timeLimit" value="150"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1VQQ7AIAjzBf7/ubsaMqBI1UubLDGstNaNbQxBEFZM4Lrh39lfZ8/zZ43qVeseN9JZ71suskb9vbxWK+Ltnn+W39Y8bsZB+6IsiA8rP9rbff8rM8XOX+1lP/+KfjYnjG9m5UwZ88/yR+on/Nn/rBOagiAIwlt8klOJGQAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAWjYBQMZrAQiS1NJzuzqWBGIBXMwAdkkdjOeNRRM8yIDRctKtq5EIf4ASxiLlSykxh/HiMgD3MLvdIsNcOcGoDe/gcBWuY5aTQaH6BVXJiSoYda4U+K/0GA1uXfKBgFo2AUjIJRQC4AALwckdsAEAAA
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OoQ0AAAgDQTZg/23xJDiSmjtT2a8CALj12mRD8jvZAAAfBtFEMxgAEAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1VQQ7AIAjz/yefvKshA4pUvbTJEsNKa93YxhAEYcUErhv+nf119jx/1qhete5xI531vuUia9Tfy2u1It7u+Wf5bc3jZhy0L8qC+LDyo73d978yU+z81V7286/oZ3PC+GZWzpQx/yx/pH7Cn/3POqEpCIIgvMUH9oU8AQAQAAA=
+  </data>
+ </layer>
+</map>

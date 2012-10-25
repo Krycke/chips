@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="14"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Cypher"/>
+  <property name="password" value="NQFI"/>
+  <property name="timeLimit" value="350"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1SWw7AIAzyBN7/uPs1TR9gWcweTUw2qSCVOcaYH19sIRy7eHVHxEe17/W9Ud/Wk/yzeEc/KhRX5D/yxOBdDsX9VD13zQfN1jDfttjsVDOwZ3byy/jJZqLWXzk9bW+OGcbibLYjfkWmT+ivuNdr97z+SAPFmfxXM2TPIVyZhyxnKv2uH6V+5XP9Z3o7ebacSH6ZOyn1s3l29D0vVXatbjavO/2jHlTvj2Qje6udfHnnEb5/nVsX0S8IAgAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGAXoYAIaRgbS9HfOKCABHEBiOwOxLBY1rPRxCkWAUDobjukQPa+RKk+pGbjyPClmU0sNufYTA0gp02iVzigxl1D+HQr5exQMbkBO+sSmh1hzyC3biM3zhPQRKvvQ1RCjnhT7CYlTG5BbVsLAYK9/KYmbkQYGS1xSK76o7R9c5hHr3sESvqMAEwAAdE6gLgAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+1SWw7AIAzy/l8eeb+m6QMsi9mjickmFaQyxxjz44sthGMXr+6I+Kj2vb436tt6kn8W7+hHheKK/EeeGLzLobifqueu+aDZGubbFpudagb2zE5+GT/ZTNT6K6en7c0xw1iczXbEr8j0Cf0V93rtntcfaaA4k/9qhuw5hCvzkOVMpd/1o9SvfK7/TG8nz5YTyS9zJ6V+Ns+Ovuelyq7VzeZ1p3/Ug+r9kWxkb7WTL+88wvevc+sCn6VRvgAQAAA=
+  </data>
+ </layer>
+</map>

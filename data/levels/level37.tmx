@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="56"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Seeing Stars"/>
+  <property name="password" value="VQNK"/>
+  <property name="timeLimit" value="800"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC81UbQ7FIAjzBLv/cffrJYsB+rHubU1MRKFFUI+11vHC+CG5v2Nar+ZVTMWR0J/iELr8ER9TWxTL9CKhj3wnsHlNXG5v/qnv3iOnl8qbTuijmOt659vZaB3hSX3n/0E6iJu5B0z9k/rOQHqVbnUOBW/r73xqL1kO963veTp7la+ag9ILlkupk+LDnmG6P+w/MvkwdlJ/B7Pfzaf6J/VVLaa+ztv7kj6LZP8dPKV/t/6qnb5/it3N1ZyUXnZclU9nf1HfGXe5Tv4ZzKIAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC81WQQrEIAz0H7J3/7GP7nWf1i60EILRSTJiBwLVNE5q48RS9qDexvT/x20Q00RMVc86rhlzvfgIvyduxj/bqx6f530kLyR/5P3jNmvsARqL7r9clwk2f8+P5szY/ww/CmYNZ8+fhUz9efSHef5kTqj+7tYfua5Xf2Uu38s+l/0287MxqsNV/8JCLXbtRPtnhl/72PyIBmTOj3UPGcVqZPSDwZ9BRAe93/tWIL0lc3+K8o/4VuXyJn7NN+Nc0b89YOmPdWdB5p61Mv1TzlmY+dj82r9S/yI4ASS+LicAEAAA
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC81U2w7FIAjz/5/2yXs6yWKAXtadrYmJKLQI6rHWOl4YPyT3d0zr1byKqTgS+lMcQpc/4mNqi2KZXiT0ke8ENq+Jy+3NP/Xde+T0UnnTCX0Uc13vfDsbrSM8qe/8P0gHcTP3gKl/Ut8ZSK/Src6h4G39nU/tJcvhvvU9T2ev8lVzUHrBcil1UnzYM0z3h/1HJh/GTurvYPa7+VT/pL6qxdTXeXtf0meR7L+Dp/Tv1l+10/dPsbu5mpPSy46r8unsL+o74y7XCV5CyrQAEAAA
+  </data>
+ </layer>
+</map>

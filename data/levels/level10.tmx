@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="0"/>
+  <property name="name" value="Bushfire"/>
+  <property name="password" value="UVWS"/>
+  <property name="timeLimit" value="80"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82Vaw7DMAiDc4Le/7j7uc7C2DwizVLUVgU+Sgk556tnsND/LWZ/zq/vRMxfxUU+5qa+ecLH2rE8Jori4P9Sfpndbb7zXuWX9R7rVeRkNl2xOIqP/lnOyt+1qai6v6M54vDducTiTOtfkeKrfYLXzmzu8qMcNqT4t5X1nKrl9v6/8f3u7PwHfvTciT3hV7TNz/osm2vM18lxo487Z0c2z9DOnevOOci4Ts5MztzO3qsZj/eK7+xph8/ib6rL38rJ6f/s3HQX+lT4EW9L03jVOkQ1mfCmutnbFXV6aKsGHxp5rTYAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC91WyRHAIAikoHytII2ntPwdEGE5THhlIrCLLIxERINybDfv04AdVfOcR8o7lPNIbI3Dbj7EL0NTkfysMdaauzjsxHv6F6VfJE/GDFVb1V46iYNlLizYsx5W+kBnE+EQie2Nz7hXr18FBylftt0M1gn7ytqDzHfKH6yzJm2/SWeRu4f7Xv1D9Vehx673xVWMxxnar69je/007hW1IdgvZE363gAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC82VSw7EMAhDc/9VjzzL6VgYm0+ksRS1VYFHKSHnfPUMFvq/xezP+fWdiPmruMjH3NQ3T/hYO5bHRFEc/F/KL7O7zXfeq/yy3mO9ipzMpisWR/HRP8tZ+bs2FVX3dzRHHL47l1icaf0rUny1T/Damc1dfpTDhhT/trKeU7Xc3v83vt+dnf/Aj547sSf8irb5WZ9lc435Ojlu9HHn7MjmGdq5c905BxnXyZnJmdvZezXj8V7xnT3t8Fn8TXX5Wzk5/Z+dm+5Cnwo/4m1pGq9ah6gmE95UN3u7ok4PbdXgA7R1vTwAEAAA
+  </data>
+ </layer>
+</map>

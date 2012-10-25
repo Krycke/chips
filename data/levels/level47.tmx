@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="4"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Pier Seven"/>
+  <property name="password" value="LXPP"/>
+  <property name="timeLimit" value="300"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XQQ0AAAgDsSnAv1xkjJAuuXffmyRTrjU+n8/n8/l8Pp/P5//1L/7PZgsM1vlqABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XUQqEMAxEy15j8X/vsefcu3g0FRRCadJJMu0iOBDwo+ZN2kZiKY+8+hnBynvpFeSvxnrEA1MRPuLhUwUjp1yPMLWIqHXWXi7DB4vd8mDVOIKN7oN2R6x8o/mZWr0emHzLl9ZbNZ/NvsLqbekB2VMpBt+b78jzPqPl2cOv+3I2P1K/zIf2gUcj7n+Gn/VkaVb/e/g9D0V5juy9NSPMPndNWS5ztovU22PX3yDEb+SMEbFmelkTmi8yKzPn+gi79052L9H/oDto2eP7bxOnNtUsPAgAEAAA
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3XsQkAAAwCQfevMnLGMIQTvr7aSTLlWuPz+Xw+n8/n8/l8/l//4v9stmDllnYAEAAA
+  </data>
+ </layer>
+</map>

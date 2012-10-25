@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="35"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Strange Maze"/>
+  <property name="password" value="UBXU"/>
+  <property name="timeLimit" value="400"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RsQkAIAwF0UyQ/ce1lV+I1UXkHgRSeaJVkiRJ0ry2j7c6drqfdyH7+0z0c3/h/6n3OJ1N9W/mRwvbNxvrABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8VXwY2EMBCbPiL+NMCH7zVAAzTAg+9WQE88r7S7R0YyPjuBlU5ryRpmNhuPM2GlPSPi/DAVhl+WGhlLjaU+F6g5HHUd5qg/AMPEfF4gLlQ7BLnu9BXUOSivzv9hcqc/NJg6zFZd+WZ9N+cQ9d6c3bqcv9Jv+VW+OVe+d2Dmrfk7OP/uHFx9p7x3/zdT5/dtA+bne2j/qZtU/vO+b1DD+8HnjOsi3vPP8x5gX/bHQN9u/uo83P1X/rkP5h2/d+aPcetE7Gskop7Llb76HXD+Rnj+NvVWfuf+q3POZ/arojoXp89wvtHHF/SrfJb4i1w3gf4suMF65+Ndsn6pmgnO0Q/7ZF8Ok8jx/GeIM+Qr7T9S/UX1l2DqlRqTSp9xVz8aOetm7vzn/smevvKLeeoilL66B6mzxhXOfw8TRNbHubPOKoj6rbkzlb4D++Ya6pe4zjt11O/AE332zLPnPnL/jI6sr/p0PTGcPsPdf6fTYsAeSt/NPWPPvzqPNa7vRav/Ij4/Id6Zv9LHqPZT/+96uesfo8LT/vF7T/1/+n/yf/AHJ13FTgAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RMQoAIAzF0N5/6pFd5Q/ilIrkQaGTEa2SJEmS5rV9vNWx0/28C9nfZ6Kf+wv/T73H6WyqfzM/WmPOtNEAEAAA
+  </data>
+ </layer>
+</map>

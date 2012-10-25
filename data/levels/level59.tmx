@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="8"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Hidden Danger"/>
+  <property name="password" value="BLDM"/>
+  <property name="timeLimit" value="400"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2USw6AIAxEOQH3P657wmemzFA0khBd1L4+Sq2llJq8T67avCv5SC4nH1k/v89f3U9HnYy/ir/rr5zjiP8snq0h6r/Kh/7zsvx7fJU/m8vhP4qZ8dX+6NPZ/9E3X/eP8N/iz8So+8+e0Sn/lbey/yN+9Bwc/Y/ykR47+UhuF3+n/0yNbbxz/lk+OuM7d2TGP71u4WfuB3f7C1IAEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGHjQAsRzaYw1gdgDal8sEB9Asn8urTyGA1Sg2Ulv+50H2H6NAbbflET7d1LRbgEgNkOzUwuIXZD4lki0NBXthgFZBtLC/CgN3IBuP6n+L0OjSXUjJf4vw4JJBZT4nxT784i0Hx8Y9T/59uMqO+jl/woi7ccHSPH/URx60MXp5X9iwx8fGIzpHxtNrv1rCKglJA8CsDDaSSSNz//CSDSy/61w0OQAUup/Wtd/xKZFXP4nJxwGsv1FrP35QFwDxNOg/KHof0ssYmVk2k+O/9moaP8kItURAuTajw3EIbFB+TSTCMyCZudqBtr3P9HxPAr8TE0AAGQysQQAEAAA
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2USw6AIAxEuf+KI7snfGbKDEUjCdFF7euj1FpKqcn75KrNu5KP5HLykfXz+/zV/XTUyfir+Lv+yjmO+M/i2Rqi/qt86D8vy7/HV/mzuRz+o5gZX+2PPp39H33zdf8I/y3+TIy6/+wZnfJfeSv7P+JHz8HR/ygf6bGTj+R28Xf6z9TYxjvnn+WjM75zR2b80+sWfuZ+AMtTtlMAEAAA
+  </data>
+ </layer>
+</map>

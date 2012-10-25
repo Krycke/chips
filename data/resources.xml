@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- possible resource settings are valid, transparentColor is optional
+	<basedir path="" />
+	<sound key="" file="" />
+	<music key="" file="" />
+	<image key="" file="" transparentColor=""/>
+	<sheet key="" file="" width="" height="" transparentColor=""/>
+	<angelcodefont key="" fontFile="" imageFile=""/>
+	<param key="" value="">
+-->
+
+<resources>
+	<!-- basedir -->
+	<basedir path="data" />
+	<!-- sounds -->
+	<!-- songs -->
+	<music key="chip01" file="chip01.wav" />
+	<music key="chip02" file="chip02.wav" />
+	<!-- images -->
+    <image key="background" file="background.png" />
+    <image key="hintBox" file="hintBox.png" />
+    <image key="newLvlBox" file="newLvlBox.png" />
+    <image key="finish" file="finish.png" />
+	<!-- sheets -->
+	<sheet key="tileset" file="tileset.png" width="32" height="32" />
+	<sheet key="numbers" file="numbers.png" width="13" height="21" />
+	<!-- fonts -->
+</resources>

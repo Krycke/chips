@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="14"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Three Doors"/>
+  <property name="password" value="HDQJ"/>
+  <property name="timeLimit" value="250"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UWwpAIQhEW4H7X+79jSgf+RihOyCBWKfJisYYBI5ZtIyStHWnues+diO3b69XKz9SP1/Pn3Ov8qOl7W0VX/tuo/kodeFr/1fNnJv/FyXJ1ymf4T+Kf+PfupZUb/Wfdb6SuHvukbf/0hrZ9w/JrxTHR/uv5iPEvblK/534lf3o0v9drvr8UfEBwGhMuwAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92VPW/CMBCGvRRW9oi9sLdSYWwGxi4dYWCkarsBQh37B9qhG5Hatb8gGwsSP4s7ySdZp/NX4iSIV3p18kf8+Bx/KNW9Hll5ouMneA8e6Uge6DrSFjwEZ2ycEvwE3oBX4Dl4ptsOjvkcddyHJhAhM4+QvimVXzn/hkXSawL+OKB/n0WuOvyl0P7Cyg/gXx1Rbyz6+KUlotYB8+2x+MdibP6obQTfpyp8Ugz/VIGfedx1/qW/i1W7ivwNK+c15kCS+FNWj8Z34xZ8n9g0fmHw+btFWtVJ1CLifxl1P46+saI3W3Km4v7/vzCG6x5eKvtakqru/xjF5j9j37vW0OdCuSXxF0KfpiTxOa9LPq79nUp/7s3zXzj4be7NS+HjOcf7CNd+ruR93YSleX0LbSnl4yuhrW2+dO+m8MDCf2+I5/KzwZ/q6Hs7UojW9qMFVojOO3aYJwAQAAA=
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3OMQEAAAgDoBW2/2uLeQgJSAAAAH6a6wAULVLeK3oAEAAA
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UywpAIQhE+/+Vn3y3EeUjHyN0ByQQ6zRZ0RiDwDGLllGStu40d93HbuT27fVq5Ufq5+v5c+5VfrS0va3ia99tNB+lLnzt/6qZc/P/oiT5OuUz/Efxb/xb15Lqrf6zzlcSd8898vZfWiP7/iH5leL4aP/VfIS4N1fpvxO/sh9d+r/LVZ8/Kj4P3r87ABAAAA==
+  </data>
+ </layer>
+</map>

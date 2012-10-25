@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="28"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Ladder"/>
+  <property name="password" value="NXIS"/>
+  <property name="timeLimit" value="350"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+WUUQ7DMAhDOUHuf9z9IiuAW0PabZZQUxLFfknVZWbr4fLyPWa9omhfxqODN+Jh+Dv97/Kryvir/MoZRT5VLsyoquL343/kV77/bE3ks+tn2VUx/Ph+4v7Z7KqYMz55/9V6zKaK5cesFvR/5f7Zu83WVnO7ed/HPLuMqjJ+P4/vOHe10D/i72DMdIW/s9A/4588A5Yfex1Pvz/DP+mPeiP/hL6J/5R/Np7yt6I3pTv/ru76AIuYVF4AEAAA
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NgGHggDaVdsIjhAgFYxDyQ2DuhtDUWdQeIcFMcHrlJROgnBYDsOgLEgTQwm54AW5yhi+3Eogbmf1D8k+J/bGYRI0cswJUGcLmRUv+TGv+09j+pgN7xjw9Qy//Y0sBwjn8tBtRymBRAqf9hgBppgJrpHz0N0Cr+CZmPDmgV/4Fk6h0O6R8XQE4DtIp/apZ/1AJaOMSxtb/IBUOh/bOTyjQyGMzxTw8w2OMflId34qGtCcij0+gAW/xn0sYrRAPnAbATud6RpaO9uPqasQzUz/cD0S7HBwApT7kHABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3RQQ0AAAjEMPyLQSMaeBFyrYIlq2KrrwM45X82/7P5n81/AL4bdnz7AAAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+WUwQ7DMAhD+f9TPnlXZAVwa0i7zRJqSqLYL6m6zGw9XF6+x6xXFO3LeHTwRjwMf6f/XX5VGX+VXzmjyKfKhRlVVfx+/I/8yvefrYl8dv0suyqGH99P3D+bXRVzxifvv1qP2VSx/JjVgv6v3D97t9naam437/uYZ5dRVcbv5/Ed564W+kf8HYyZrvB3Fvpn/JNnwPJjr+Pp92f4J/1Rb+Sf0Dfxn/LPxlP+VvSmdOff1V0f63O79AAQAAA=
+  </data>
+ </layer>
+</map>

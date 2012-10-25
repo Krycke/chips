@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="32" height="32" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="chipCount" value="3"/>
+  <property name="hint" value=""/>
+  <property name="name" value="Scavenger Hunt"/>
+  <property name="password" value="PEFS"/>
+  <property name="timeLimit" value="600"/>
+ </properties>
+ <tileset firstgid="1" name="tileset" tilewidth="32" tileheight="32">
+  <image source="tileset.png" width="416" height="512"/>
+ </tileset>
+ <layer name="Background" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3DAQkAAAwEofv+pddjKLhqqqqq6usHHB1pSAAQAAA=
+  </data>
+ </layer>
+ <layer name="Walls" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92VUQ7AIAhDOQH3P+7+jU4ZpWU2Mf4MHsMG3MxcfJRS8X24VWLw3xi383ce7/T+J7Wg643mU/Ir5pWi54zcp3m7+F+9B77EIXYown+Rtx6/RfRfEVvZf6YXM3xEnRX/Gp3pt/EjyvLV8Vmt+Ky6/rZ/MvNyFh/dHWi/dfUfSw8WAJ7VABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities" width="32" height="32">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC8WWy00DQRBE++AsLO4kQAREsydueyIOgiAKQkOWPKL0eN3jAxIjjbye6e1vVdlV/7/O++fx4D7ve2djPvN8PZ+NfXfW2Xc253Ce8Rn3IvlyT/ml3+671Z9xL2F/4L57j3ddjYxPX2m7q5F+1n6Lu/RxwXs84xzyrNvWn6y/8zv13mynGXT1ce4d/les9LNsX8KGORgPeD/hb8fZ276iXzsu7Ppp3CIH86zi7NE58M5myvOOQ5zJjo/E5oqXM636nVvaH3h3p3fGx4nzNdjYLHlumkPtYi6WZ8U7f5GD9Ybzo6/kuM2yYJerqylz+8AdsdXpWuF5rS+JbxgzHBPvPCdHyFcu9pf+DLeJjSqfJ3PIWeSy3+7Mq9MG2qTGmVayvknDOAPWbFj5lJwmHpuuWC86vjAX0x3mbvq1vr/Wz+p0zvA3aRzxlL6p509hm7UZpw88P5qD4dWwzRxtjgVf1BebkfGgw7j1iP5M53Lu1mvje/aBfg1Thh/Ly3Bi+Js03zhh/jveGbcsRmffaULGzzv7D/sez+xBxu5qvuJ99i97kDH4e8dad7HX5zNynXTffLFeavyu1x0nLN9um5ZO9jssfANiLVWLABAAAA==
+  </data>
+ </layer>
+ <layer name="Entities2" width="32" height="32" opacity="0.67">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3BAQ0AAADCoPdPbQ8HFAAAAPBuEQAcxwAQAAA=
+  </data>
+ </layer>
+ <layer name="Collision" width="32" height="32" opacity="0.69">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92VwQ7AIAhD+f8Tn7y70SmjtMwmxsvgMWzAzczFRykV34dbJQb/jXE7f+fxTu9/Ugu63mg+Jb9iXil6zsh9mreL/9V74EscYoci/Bd56/FbRP8VsZX9Z3oxw0fUWfGv0Zl+Gz+iLF8dn9WKz6rrb/snMy9n8dHdgfZbV/+x9AAYBl2gABAAAA==
+  </data>
+ </layer>
+</map>
